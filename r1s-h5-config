@@ -3694,7 +3694,7 @@ CONFIG_PACKAGE_luci-mod-admin-full=y
 CONFIG_PACKAGE_luci-app-accesscontrol=y
 # CONFIG_PACKAGE_luci-app-acme is not set
 # CONFIG_PACKAGE_luci-app-adblock is not set
-CONFIG_PACKAGE_luci-app-adbyby-plus=y
+# CONFIG_PACKAGE_luci-app-adbyby-plus is not set
 # CONFIG_PACKAGE_luci-app-advanced-reboot is not set
 # CONFIG_PACKAGE_luci-app-ahcp is not set
 # CONFIG_PACKAGE_luci-app-amule is not set
@@ -3714,7 +3714,7 @@ CONFIG_PACKAGE_luci-app-autoreboot=y
 # CONFIG_PACKAGE_luci-app-clamav is not set
 # CONFIG_PACKAGE_luci-app-commands is not set
 # CONFIG_PACKAGE_luci-app-cshark is not set
-CONFIG_PACKAGE_luci-app-ddns=y
+# CONFIG_PACKAGE_luci-app-ddns is not set
 # CONFIG_PACKAGE_luci-app-diag-core is not set
 # CONFIG_PACKAGE_luci-app-dnscrypt-proxy is not set
 # CONFIG_PACKAGE_luci-app-dnsforwarder is not set
@@ -3737,8 +3737,8 @@ CONFIG_PACKAGE_luci-app-flowoffload=y
 CONFIG_PACKAGE_luci-app-hd-idle=y
 # CONFIG_PACKAGE_luci-app-hnet is not set
 CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
-CONFIG_PACKAGE_luci-app-kodexplorer=y
-CONFIG_PACKAGE_luci-app-koolproxy=y
+# CONFIG_PACKAGE_luci-app-kodexplorer is not set
+# CONFIG_PACKAGE_luci-app-koolproxyis not set
 # CONFIG_PACKAGE_luci-app-lxc is not set
 # CONFIG_PACKAGE_luci-app-meshwizard is not set
 # CONFIG_PACKAGE_luci-app-minidlna is not set
@@ -3777,7 +3777,7 @@ CONFIG_PACKAGE_luci-app-samba4=y
 # CONFIG_PACKAGE_luci-app-shairplay is not set
 # CONFIG_PACKAGE_luci-app-siitwizard is not set
 # CONFIG_PACKAGE_luci-app-simple-adblock is not set
-CONFIG_PACKAGE_luci-app-smartdns=y
+# CONFIG_PACKAGE_luci-app-smartdns is not set
 # CONFIG_PACKAGE_luci-app-softethervpn is not set
 # CONFIG_PACKAGE_luci-app-splash is not set
 CONFIG_PACKAGE_luci-app-sqm=y
@@ -3791,14 +3791,14 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Socks=y
 # CONFIG_PACKAGE_luci-app-ssrserver-python is not set
 # CONFIG_PACKAGE_luci-app-statistics is not set
-CONFIG_PACKAGE_luci-app-syncdial=y
+# CONFIG_PACKAGE_luci-app-syncdial is not set
 # CONFIG_PACKAGE_luci-app-tinyproxy is not set
-CONFIG_PACKAGE_luci-app-transmission=y
+# CONFIG_PACKAGE_luci-app-transmission is not set
 # CONFIG_PACKAGE_luci-app-travelmate is not set
 CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-udpxy is not set
 # CONFIG_PACKAGE_luci-app-uhttpd is not set
-CONFIG_PACKAGE_luci-app-unblockmusic=y
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
 # CONFIG_PACKAGE_luci-app-unbound is not set
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-usb-printer=y
@@ -3814,8 +3814,8 @@ CONFIG_PACKAGE_luci-app-wifischedule=y
 # CONFIG_PACKAGE_luci-app-wireguard is not set
 CONFIG_PACKAGE_luci-app-wol=y
 # CONFIG_PACKAGE_luci-app-wrtbwmon is not set
-CONFIG_PACKAGE_luci-app-xlnetacc=y
-CONFIG_PACKAGE_luci-app-zerotier=y
+# CONFIG_PACKAGE_luci-app-xlnetacc is not set
+# CONFIG_PACKAGE_luci-app-zerotier is not set
 
 #
 # 4. Themes
@@ -3823,7 +3823,7 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 CONFIG_PACKAGE_luci-theme-material=y
-# CONFIG_PACKAGE_luci-theme-netgear is not set
+CONFIG_PACKAGE_luci-theme-netgear=y
 
 #
 # 5. Protocols
@@ -3864,7 +3864,7 @@ CONFIG_PACKAGE_luci-lib-nixio=y
 # CONFIG_PACKAGE_meshwizard is not set
 CONFIG_PACKAGE_default-settings=y
 CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn is not set
 CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-base-ca is not set
@@ -4029,7 +4029,7 @@ CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-transmission-tr is not set
 # CONFIG_PACKAGE_luci-i18n-transmission-uk is not set
 # CONFIG_PACKAGE_luci-i18n-transmission-vi is not set
-CONFIG_PACKAGE_luci-i18n-transmission-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-transmission-zh-cn is not set
 # CONFIG_PACKAGE_luci-i18n-transmission-zh-tw is not set
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-upnp-ca is not set
@@ -4092,7 +4092,7 @@ CONFIG_PACKAGE_luci-i18n-wifischedule-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-wol-vi is not set
 CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-wol-zh-tw is not set
-CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn is not set
 
 #
 # Mail
@@ -4180,10 +4180,10 @@ CONFIG_POSTFIX_PCRE=y
 # CONFIG_PACKAGE_rtorrent is not set
 # CONFIG_PACKAGE_rtorrent-rpc is not set
 # CONFIG_PACKAGE_transmission-cli-openssl is not set
-CONFIG_PACKAGE_transmission-daemon-openssl=y
+# CONFIG_PACKAGE_transmission-daemon-openssl is not set
 # CONFIG_PACKAGE_transmission-remote-openssl is not set
 # CONFIG_PACKAGE_transmission-web is not set
-CONFIG_PACKAGE_transmission-web-control=y
+# CONFIG_PACKAGE_transmission-web-control is not set
 
 #
 # Captive Portals
